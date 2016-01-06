@@ -1,4 +1,4 @@
-Ouestion
+﻿Ouestion
 
 The below links are to datasets containing NHS data. You will find data on UK practices and their prescriptions prescribed in a year. 
 
@@ -15,7 +15,7 @@ b. How much did this vary from the national mean?
 5. Come up with your own interesting question about NHS prescriptions in England and use the data (plus any other sources you'd like to use) to answer it. 
 
 My Approach
-After having the first look, I have decided that the solution should be fixed by big data approach. 
+I have decided to using big data approach for this solution. 
 Since I’m experienced in C#, I decided to go forward with Hadoop library with Microsoft.Hadoop.MapReduce.
 I don’t have any practical experience with Big data, I referenced following useful startup tutorials to configure HDInsight, Hadoop and writing MapReduce functions in C#
 
