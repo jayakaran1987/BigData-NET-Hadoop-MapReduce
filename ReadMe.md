@@ -29,9 +29,10 @@ I referenced following useful startup tutorials to configure HDInsight, Hadoop a
 4.	https://martin.atlassian.net/wiki/pages/viewpage.action?pageId=10354721
 
 Following Improvements need to fix in existing code – future commits will cover these
-1.	Chain MapReduce for Multiple Jobs
-    * https://hadoop.apache.org/docs/r2.7.0/api/org/apache/hadoop/mapred/lib/ChainMapper.html
-    * https://hadoop.apache.org/docs/r2.7.0/api/org/apache/hadoop/mapred/lib/ChainReducer.html
-2.	Efficient Sorting mechanism, Combine/join two datasets in efficient way, Sort Comparator and Group Comparator 
-3.	The fourth question needs an additional datasets to find all the Postcodes inside Region. So that grouped Postcodes results goes to the Region based results
-4.	Using the SDK, tried to use the MapperContext.InputFileName property: it is always empty. Need to find the clean way to distinguish datasets in Mapper
+
+1. Chain MapReduce for Multiple Jobs
+  * https://hadoop.apache.org/docs/r2.7.0/api/org/apache/hadoop/mapred/lib/ChainMapper.html
+  * https://hadoop.apache.org/docs/r2.7.0/api/org/apache/hadoop/mapred/lib/ChainReducer.html
+2. Efficient Sorting mechanism, Combine/join two datasets in efficient way, Sort Comparator and Group Comparator 
+3. The fourth question needs an additional datasets to find all the Postcodes inside Region. So that grouped Postcodes results goes to the Region based results
+4. Using the SDK, tried to use the MapperContext.InputFileName property: it is always empty. Need to find the clean way to distinguish datasets in Mapper
